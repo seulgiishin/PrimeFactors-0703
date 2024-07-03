@@ -31,6 +31,6 @@ TEST_F(PrimeFixture, Of4) {
 }
 
 TEST_F(PrimeFixture, Of6) {
-	expected = {3,2};
+	expected = {2,3};
 	EXPECT_EQ(expected, pf.of(6));
 }
