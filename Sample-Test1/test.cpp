@@ -15,8 +15,12 @@ TEST_F(PrimeFixture, Of1) {
 	EXPECT_EQ(expected, pf.of(1));
 }
 
-
 TEST_F(PrimeFixture, Of2) {
 	expected = {2};
 	EXPECT_EQ(expected, pf.of(2));
+}
+
+TEST_F(PrimeFixture, Of3) {
+	expected = {3};
+	EXPECT_EQ(expected, pf.of(3));
 }
